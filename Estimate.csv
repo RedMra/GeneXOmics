@@ -1,0 +1,18 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,350.65,4207.80,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,S3 Standard,0,28.8,345.60,USD,,"S3 Standard storage (1.1 TB per month), PUT, COPY, POST, LIST requests to S3 Standard (500), GET, SELECT, and all other requests from S3 Standard (1200000), Data returned by S3 Select (220 GB per month), Data scanned by S3 Select (1.1 TB per month)"
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),,AWS DataSync,0,14.08,168.96,USD,,Total data copied by AWS DataSync per month (1.1 TB)
+My Estimate,US East (N. Virginia),,AWS Lambda,0,0,0.00,USD,,"Invoke Mode (Buffered), Architecture (x86), Architecture (x86), Number of requests (32 per month), Amount of ephemeral storage allocated (512 MB)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,307.768,3693.22,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (r6g.large), Pricing strategy (Compute Savings Plans 3yr  No Upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
