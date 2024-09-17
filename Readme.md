@@ -142,7 +142,7 @@ To execute the **GeneXOmics Single-Cell CRISPR 10x Genomics Pipeline**, follow t
 1. **Clone the repository**: First, clone this repository to your local machine and navigate to the root directory:
 
     ```bash
-    git clone https://github.com/your-repo/GenXomics_single_cell_pipeline.git
+    git clone git://github.com/RedMra/GeneXOmics.git
     cd GenXomics_single_cell_pipeline
     ```
 
@@ -177,7 +177,7 @@ This considers that we already have an S3 bucket and a Batch service properly co
 1. **Clone the repository**: First, clone this repository to your local machine and navigate to the root directory:
 
     ```bash
-    git clone https://github.com/your-repo/GenXomics_single_cell_pipeline.git
+    git clone git://github.com/RedMra/GeneXOmics.git
     cd GenXomics_single_cell_pipeline
     ```
 
@@ -202,7 +202,7 @@ This considers that we already have an S3 bucket and a Batch service properly co
 In order to deploy and execute all the pipeline from AWS, then your Lambda function must configure the Batch service to execute
 
 ```bash
-nextflow run your-repo/GenXomics_single_cell_pipeline --files <FILES_LOCATION_IN_S3> --reads <CSV_CONFIF_FILE_IN_S3>
+nextflow run RedMra/GeneXOmics --files <FILES_LOCATION_IN_S3> --reads <CSV_CONFIF_FILE_IN_S3>
 ```
 
 # Architecture
